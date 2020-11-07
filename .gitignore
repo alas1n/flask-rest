@@ -1,2 +1,5 @@
 flask-rest/venv/**/*
 
+*.pyc
+*.json
+

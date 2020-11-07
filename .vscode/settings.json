@@ -1,5 +1,5 @@
 {
-  "python.pythonPath": "flask-rest/venv/bin/python3.6",
+  "python.pythonPath": "flask-rest/venv/bin/python3.8",
   "python.linting.pylintEnabled": true,
   "python.linting.mypyEnabled": false,
   "python.linting.enabled": true,
@@ -7,7 +7,9 @@
   "python.linting.flake8Enabled": false,
   "python.linting.prospectorEnabled": false,
   "python.linting.pycodestyleEnabled": false,
-  "python.linting.pydocstyleEnabled": true,
+  "python.linting.pydocstyleEnabled": false,
   "python.linting.pylamaEnabled": false,
-  "python.formatting.provider": "autopep8"
+  "python.formatting.provider": "autopep8",
+  "window.zoomLevel": -0.5,
+  "editor.matchBrackets": "never",
 }
