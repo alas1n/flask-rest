@@ -53,7 +53,7 @@ class UserRegister(Resource):
                             required=True,
                             help="This field cannot be left balnk!"
                             )
-        data = p`arser.parse_args()
+        data = parser.parse_args()
 
         connection = sqlite3.connect('data.db')
         cursor = connection.cursor()
